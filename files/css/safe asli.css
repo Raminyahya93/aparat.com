@@ -1,0 +1,369 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: yekan;
+    src: url("../fonts/Yekan.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: yekan;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    /*background:  aqua;*/
+    box-shadow: 0px 0px 15px #ddd;
+	position: relative;
+    position: fixed;
+	top: 0;
+    background-color: #FFFFFF
+}
+
+.list-bottom {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: none thin #000;
+    border-radius: 20px;
+    padding: 7px
+}
+
+.list-bottom img {
+    margin-top: 5px
+}
+
+.list-bottom:hover {
+    background-color: #f8f8fb;
+    cursor: pointer;
+}
+
+.logo {
+    float: right;
+    margin-top: 20PX;
+    margin-right: 5PX;
+}
+
+.live-video {
+    float: right;
+    margin-top: 20px;
+    border: nonethin #000;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.live-video img {
+    margin-top: 10px;
+}
+
+.live-video:hover {
+    background-color: #f8f8fb;
+}
+
+.search input {
+    float: right;
+    margin-right: 140px;
+    margin-top: 10px;
+    direction: rtl;
+    width: 45%;
+    height: 50px;
+    border-radius: 30px;
+    text-indent: 20px;
+    background-image: url("../images/header/search_icon.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 2%;
+    border: none;
+    background-color: #f5f5f9;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #d5d7e1;
+    opacity: 1;
+}
+
+.uplode-video {
+    float: left;
+    width: 10%;
+    margin-top: 20px;
+    direction: rtl;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+.uplode-video a {
+    border: solid thin #ccc;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: solid thin rgb(5, 163, 232);
+    border-radius: 30px;
+    color: rgb(5, 163, 232);
+    font-size: 18px;
+}
+
+.uplode-video a:hover {
+    color: rgb(30, 200, 280);
+    border-color: rgb(30, 200, 280);
+}
+
+.login {
+    width: 10%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px
+}
+
+.login a {
+    width: 100%;
+    height: 50px;
+    direction: rtl;
+    display: block;
+    text-align: right;
+    font-size: 16px;
+    text-indent: 30px;
+    text-decoration: none;
+    border: solid thin #fff;
+    line-height: 50px;
+    border-radius: 30px;
+    background-image: url("../images/header/user.png");
+    background-position: 115px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    color: #777;
+    background-color: #fff;
+}
+
+.login a:hover {
+    background-color: #f8f8f8;
+    color: #aaa;
+}
+
+.ADS {
+    height: 160px;
+    width: 80%;
+    float: left;
+    margin-top: 80px;
+    /*background-color: #aaa;*/
+}
+
+.ads {
+    margin-top: 27px;
+}
+
+.aparat-vip {
+    width: 69.3%;
+    height: 260px;
+    float: left;
+    /*background-color: aquamarine;*/
+    padding: 25px;
+    padding-left: 140px
+}
+
+.cover-out {
+    width: 90%;
+    height: 93%;
+    float: left;
+    /*background-color: aqua;*/
+    margin-top: 20px;
+}
+
+.cover-in {
+    /*background-color: aliceblue;*/
+    width: 24%;
+    height: 95%;
+    float: right;
+    margin-right: 6px
+}
+
+.cover-in img {
+    width: 100%
+}
+
+.span1 {
+    direction: rtl;
+    margin-right: 120px;
+}
+
+.cover-in a {
+    text-decoration: none;
+}
+
+.p1 {
+    text-align: right;
+    direction: rtl;
+    color: #4a4a4a;
+    font-size: 15px;
+}
+
+.p1:hover {
+    color: #7a7a7a
+}
+
+.p2 {
+    text-align: right;
+    direction: rtl;
+    font-size: 13px;
+    color: #7a7a7a;
+}
+
+.p2:hover {
+    color: #9a9a9a
+}
+
+.aparat-varzeshi {
+    margin-top: 40px
+}
+
+.list-right {
+    height: 100%;
+    width: 19.34%;
+    position: fixed;
+    right: 0;
+    background-color: rgba(251, 251, 252, 1);
+    border: none thick rgba(0, 0, 0, 1.00);
+    float: right;
+    display: block;
+    margin-top: 90px;
+}
+
+.list-right:hover {
+    position: absolute;
+}
+
+.list-links:hover {
+    background-color: rgba(245, 245, 249, 1)
+}
+
+.list-right a {
+    direction: rtl;
+    text-decoration: none;
+    text-indent: 30px;
+    font-size: 16px
+}
+
+.list-links {
+    margin-top: 25px;
+    height: 25px;
+    margin-right: 20px;
+    border: none thick #fff;
+    /*background-color:aqua;*/
+    color: #4a4a4a;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#icon1 {
+    background-image: url("../images/icons/1.png");
+}
+
+#icon2 {
+    background-image: url("../images/icons/2.png");
+}
+
+#icon3 {
+    background-image: url("../images/icons/3.png");
+}
+
+#l-i {
+    color: rgb(223, 15, 80);
+    margin-right: 20px;
+}
+
+#icon4 {
+    background-image: url("../images/icons/4.png");
+}
+
+#icon5 {
+    background-image: url("../images/icons/5.png");
+}
+
+#icon6 {
+    background-image: url("../images/icons/6.png");
+}
+
+#icon7 {
+    background-image: url("../images/icons/7.png");
+}
+
+#icon8 {
+    background-image: url("../images/icons/8.png");
+}
+
+#icon9 {
+    background-image: url("../images/icons/9.png");
+}
+
+#icon10 {
+    background-image: url("../images/icons/10.png");
+}
+
+#icon11 {
+    background-image: url("../images/icons/11.png");
+}
+
+#icon12 {
+    background-image: url("../images/icons/12.png");
+}
+
+#icon13 {
+    background-image: url("../images/icons/13.png");
+}
+
+#icon14 {
+    background-image: url("../images/icons/14.png");
+}
+
+#icon15 {
+    background-image: url("../images/icons/15.png");
+}
+
+#icon16 {
+    background-image: url("../images/icons/16.png");
+}
+
+#icon17 {
+    background-image: url("../images/icons/17.png");
+}
+
+#icon18 {
+    background-image: url("../images/icons/18.png");
+}
+
+#icon19 {
+    background-image: url("../images/icons/19.png");
+}
+
+#icon20 {
+    background-image: url("../images/icons/20.png");
+}
+
+#icon21 {
+    background-image: url("../images/icons/21.png");
+}
+
+#icon22 {
+    background-image: url("../images/icons/22.png");
+}
+
+#icon23 {
+    background-image: url("../images/icons/23.png");
+}
+
+#icon24 {
+    background-image: url("../images/icons/24.png");
+}
+
+#icon25 {
+    background-image: url("../images/icons/25.png");
+}
